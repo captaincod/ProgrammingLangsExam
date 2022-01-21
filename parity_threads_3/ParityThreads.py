@@ -1,9 +1,3 @@
-"""
-Написать программу, которая порождает два
-потока: первый поток выводит четные числа в
-диапазоне от 0 до 10, второй поток нечетные на
-этом же диапазоне
-"""
 from threading import Thread
 import time
 
@@ -12,14 +6,14 @@ def even():
     for i in range(1, 11):
         if i % 2 == 0:
             print(i)
-            time.sleep(1)
+            time.sleep(0.5)
 
 
 def odd():
     for i in range(1, 11):
         if i % 2 != 0:
             print(i)
-            time.sleep(1)
+            time.sleep(0.5)
 
 
 if __name__ == '__main__':
