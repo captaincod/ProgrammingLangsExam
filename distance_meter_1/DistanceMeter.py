@@ -44,5 +44,5 @@ if __name__ == '__main__':
     meter.add(p2)
     meter.add(Point(2, 0))
     # print(p2.distance_to(Point(2, 0)))
-    print(meter)
-    print(meter.measure())
+    print(meter)  # >>> Points: (0,0) (0,1) (2,0)
+    print(meter.measure())  # >>> 3.23606797749979
