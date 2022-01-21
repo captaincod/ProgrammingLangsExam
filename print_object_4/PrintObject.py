@@ -20,7 +20,7 @@ def func(obj) -> None:
     if class_name.__contains__('B'):
         raise ObjectException("You entered class B object")
     elif class_name.__contains__('A'):
-        print(obj.value)
+        print(str(obj.value))
     else:
         print(obj)
 
