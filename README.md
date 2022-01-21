@@ -7,8 +7,9 @@
 
 2. Разбор на токены  
    - Написать программу для разбора на токены следующих выражений:  
-     `int value = 10;`
-     `int* ptr = &value;`
+     ```python3
+     int value = 10;
+     int* ptr = &value;```
    - `/token_parser_2`
    - Демонстрация в `/token_parser_2/TokenParser.py`
 
