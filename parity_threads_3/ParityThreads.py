@@ -20,6 +20,6 @@ if __name__ == '__main__':
 
     th_even = Thread(target=even())
     th_odd = Thread(target=odd())
-    th_even.run()
-    th_odd.run()
+    th_even.start()
+    th_odd.start()
 
