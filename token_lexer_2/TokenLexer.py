@@ -1,11 +1,11 @@
-from token_parser_2 import TokenType, Token
+from token_lexer_2 import TokenType, Token
 
 
-class TokenParserException(Exception):
+class TokenLexerException(Exception):
     pass
 
 
-class TokenParser:
+class TokenLexer:
 
     def __init__(self):
         self.token_list = []
@@ -64,7 +64,7 @@ class TokenParser:
 
 if __name__ == '__main__':
     # FOR TESTS
-    parser = TokenParser()
+    parser = TokenLexer()
     parser.parse('int value = 10;'
                  'int* ptr = &value;')
     print(parser)
